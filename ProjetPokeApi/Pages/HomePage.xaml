@@ -15,7 +15,7 @@
                TextColor="SkyBlue"
                 VerticalOptions="Center" 
                 HorizontalOptions="Center" />
-        <Label Text="TP - Dev' mobile &#10; DRON | BOURDARIE"
+        <Label Text="TP - Dev' mobile &#10; Jérémy DRON"
                HorizontalTextAlignment="Center"
                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
