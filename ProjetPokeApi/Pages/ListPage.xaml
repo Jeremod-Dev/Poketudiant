@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ProjetPokeApi.Pages.ListPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#E2E4F9">
+            <Label Text="Liste des PokEtudiants"
+                   HorizontalOptions="Center"
+                   FontSize="Title"
+                   TextColor="CornflowerBlue"
+                   FontAttributes="Bold"/>
+            
+            <CollectionView ItemsSource="{Binding ListofPokemon}"
+                            SelectionChanged="OnClickPokemonInList"
+                            SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Label Text="{Binding Nom}"
+                                   HorizontalOptions="Center"
+                                   TextColor="SkyBlue"
+                                   TextTransform="Uppercase"
+                                   Margin="0,10,0,10"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

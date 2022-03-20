@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetPokeApi.Pages.HomePage">
+    <StackLayout BackgroundColor="#E2E4F9">
+       <Label Text="PokEtudiant"
+                Margin="0,50,0,0"
+                FontSize="Title"
+              TextColor="CornflowerBlue"
+              FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <Label Text="Et si vos étudiants étaient des pokemons!"
+               FontSize="Subtitle"
+               TextColor="SkyBlue"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        <Label Text="TP - Dev' mobile &#10; DRON | BOURDARIE"
+               HorizontalTextAlignment="Center"
+               VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+        <Label x:Name="label" 
+               HorizontalOptions="Center"
+               TextColor="Red"/>
+        <Button Text="J'adore Linux" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+</ContentPage>

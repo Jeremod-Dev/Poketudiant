@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="ProjetPokeApi.MainPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:ProjetPokeApi.Pages">
+
+    <TabBar>
+        <ShellContent Title="Accueil">
+            <pages:HomePage />
+        </ShellContent>
+        <ShellContent Title="Liste">
+            <pages:ListPage />
+        </ShellContent>
+        <ShellContent Title="Ajouter">
+            <pages:AddPage />
+        </ShellContent>
+    </TabBar>
+
+</Shell>

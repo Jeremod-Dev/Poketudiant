@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetPokeApi.Pages.AddPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#E2E4F9">
+            <Label Text="Créer votre propre pokEtudiant"
+                   Margin="0,50,0,0"
+                   FontSize="Subtitle"
+                   FontAttributes="Bold"
+                   TextTransform="Uppercase"                   
+                   TextColor="CornflowerBlue"
+                   HorizontalOptions="Center"/>
+            <Entry Placeholder="Nom" x:Name="nomInput"
+                   HorizontalOptions="Center" 
+                   Margin="0,30,0,0" 
+                   WidthRequest="200"/>
+            <Entry Placeholder="Capacité" x:Name="poidsInput" Keyboard="Numeric"
+                   HorizontalOptions="Center" 
+                   Margin="0,30,0,0"
+                   WidthRequest="200"/>
+            <Picker Title="Type" x:Name="typeInput" 
+                    HorizontalOptions="Center" 
+                   Margin="0,30,0,0"
+                   WidthRequest="200">
+                <Picker.Items>
+                    <x:String>Back-end</x:String>
+                    <x:String>Front-end</x:String>
+                    <x:String>Eau</x:String>
+                    <x:String>Alcool</x:String>
+                    <x:String>Linux</x:String>
+                    <x:String>Windows</x:String>
+                    <x:String>MacOS</x:String>
+                    <x:String>Github</x:String>
+                    <x:String>Gitlab</x:String>
+                    <x:String>GitUnilim</x:String>
+                    <x:String>Java</x:String>
+                    <x:String>Python</x:String>
+                    <x:String>C++</x:String>
+                    <x:String>PHP</x:String>
+                </Picker.Items>
+            </Picker>
+            <Button Text="Valider" Clicked="onClick" VerticalOptions="EndAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
