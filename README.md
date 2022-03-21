@@ -1,6 +1,6 @@
 # PokEtudiant
 ## TP - Developpement d'application mobile
-## Jérémy DRON 
+## Jérémy DRON | Alexandre BORDARIE 
 
 ### Contexte du projet:
 
@@ -10,8 +10,13 @@ de proposer l'ajout d'un élément par l'utilisateur. Toutefois suite à une dé
 deux groupes seul pour développer une application qui nous correspondait davantage. Nous avons alors mis en place ensemble l'arborescence du projet et l'API avant
 de continué de notre coté.
 
-### Mon travail:
-- Ajout de l'affichage de la liste
+### Alexandre:
+- Mise en place du projet
+- Mise en place de l'API
+- Developpement de l'objet pokEtudiant
+- Affichage d'une liste
+### Jeremy:
+- modification affichage d'une liste 
 - Mise en forme de l'interface de la liste
 - Création de la page de détails
 - mise en forme de l'interface la page détail
