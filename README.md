@@ -1,6 +1,6 @@
 # PokEtudiant
 ## TP - Developpement d'application mobile
-## Jérémy DRON | Alexandre BORDARIE 
+## Jérémy DRON | Alexandre BOURDARIE 
 
 ### Contexte du projet:
 
